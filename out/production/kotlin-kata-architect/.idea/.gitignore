@@ -1,0 +1,29 @@
+# -------------------------------------------------------------------
+# IDE Specific Files (IntelliJ)
+# Ignore local workspace and configuration files.
+/shelf/
+/workspace.xml
+.idea/
+*.iws
+*.iml
+*.ipr
+.project
+.classpath
+
+# Build and Compilation Outputs (Kotlin/JVM/Gradle)
+# Ignore compiled code, temporary caches, and logs.
+/out/
+/build/
+/target/
+bin/
+*.class
+*.jar
+*.war
+*.zip
+*.log
+.gradle/
+*.lock
+
+# Operating System Files
+.DS_Store
+Thumbs.db
